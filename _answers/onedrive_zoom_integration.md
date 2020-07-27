@@ -37,16 +37,21 @@ You can share your OneDrive files in chat or in-meeting chat. Shared files are n
 3. Click  **File**  \&gt;  **OneDrive**.
 4. Click  **Connect**. If prompted, sign into your Microsoft account and authorize Zoom to access your OneDrive.
  You will see a web page with your OneDrive files.
- ![](RackMultipart20200727-4-sg91tf_html_b50a74cdfcaba099.png)
+
+ <img class="center" src="../images/onedrive_zoom_integration/1.png">
+
 5. Select the file you want to share.
- ![](RackMultipart20200727-4-sg91tf_html_121d7e1e37f49c4f.png)
+
+ <img class="center" src="../images/onedrive_zoom_integration/2.png">
+
 6. In the bottom panel select one of these options:
   - **Visible throughout the organization (only available for Microsoft work/school accounts)**: Only members in your organization can click the link to view or download the file.
   - **Visible for all** : Anyone with the link can view or download the file.
 7. Click  **Choose**.
 8. When prompted by your browser, click  **Open Zoom Meetings**.
  Zoom will post a link to the OneDrive file. Contacts in the chat can click the link to open a browser and view the file in OneDrive.
- ![](RackMultipart20200727-4-sg91tf_html_fa8f333c7ed1a713.png)
+
+ <img class="center" src="../images/onedrive_zoom_integration/3.png">
 
 **Presenting OneDrive Files while in a Meeting**
 
@@ -58,9 +63,13 @@ You can present OneDrive files while in a Zoom meeting. Zoom will open the OneDr
 4. Click the  **Files**  tab, select  **Microsoft OneDrive** , and click  **Share**.
 5. Click  **Connect**. If prompted, sign into your Microsoft account and authorize Zoom to access your OneDrive.
  You will see a web page with your OneDrive files.
- ![](RackMultipart20200727-4-sg91tf_html_b50a74cdfcaba099.png)
+
+ <img class="center" src="../images/onedrive_zoom_integration/4.png">
+
 6. Select the file you want to share.
- ![](RackMultipart20200727-4-sg91tf_html_3b64936c006847e2.png)
+
+ <img class="center" src="../images/onedrive_zoom_integration/5.png">
+
 7. In the bottom panel. select one of these options:
 
 
