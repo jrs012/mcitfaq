@@ -1,0 +1,36 @@
+main {
+	max-width: 64em;
+	margin: auto;
+	padding: 2em;
+}
+img.center {
+	/* centers an image */
+	display: block;
+	margin: auto;
+	padding: 0.5em;
+}
+img.aside {
+	/* use this for putting images beside paragraphs.*/
+	vertical-align: middle;
+	float: right;
+	display: inline;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.flex_aside {
+	display: flex;
+	align-items: center;
+}
+
+/* make pretty question lists */
+ul.question_list {
+	list-style: none;
+}
+ul.question_list li {
+	padding-left: 5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}

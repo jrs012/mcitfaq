@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{page.title}}</title>
+	<link href="../faq.css" rel="stylesheet" type="text/css">
+	<link href="../topics.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header id="banner">
+		<img alt="Marietta College" id="logo" src="../../images/hdimg.jpg">
+	</header>
+	<main>
+		{% if page.topic %}
+			{% assign topic = page.topic %}
+		{% else %}
+			{% assign topic = page.topics[0] %}
+		{% endif %}
+		{% assign topic_page = site.topics | where: "topic", topic | first %}
+		<nav><a href="../index.html">FAQ</a> - <a href="{{topic_page.url}}">{{topic_page.title}}</a> - {{page.question}}</nav>
+
+		{{content}}
+
+	</main>
+</body>
+
+</html>
