@@ -14,12 +14,12 @@
 		<img alt="Marietta College" id="logo" src="../images/hdimg.jpg">
 	</header>
 	<main>
-		<nav><a href="../index.html">FAQ</a> - {{page.title}}</nav>
+		<nav><a href="{{ "index.html" | relative_url }}">FAQ</a> - {{page.title}}</nav>
 
 		<ul class="question_list">
 			{% for answer in site.answers %}
 				{% if answer.topic == page.topic or answer.topics contains page.topic %}
-					<li><a href="{{ answer.url }}">{{ answer.question }}</a></li>
+					<li><a href="{{ answer.url | relative_url }}">{{ answer.question }}</a></li>
 				{% endif %}
 			{% endfor %}
 		</ul>

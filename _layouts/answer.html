@@ -20,7 +20,7 @@
 			{% assign topic = page.topics[0] %}
 		{% endif %}
 		{% assign topic_page = site.topics | where: "topic", topic | first %}
-		<nav><a href="../index.html">FAQ</a> - <a href="{{topic_page.url}}">{{topic_page.title}}</a> - {{page.question}}</nav>
+		<nav><a href="{{ "index.html" | relative_url }}">FAQ</a> - <a href="{{ topic_page.url | relative_url }}">{{topic_page.title}}</a> - {{page.question}}</nav>
 
 		{{content}}
 
