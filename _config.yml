@@ -22,8 +22,8 @@ title: Marietta College IT FAQ
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Frequently asked questions about information technology at Marietta College.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog. mcitfaq is for testing purposes on GitHub
+url: "https://rose.systems/mcitfaq" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
