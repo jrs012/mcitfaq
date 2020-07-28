@@ -3,11 +3,14 @@ main {
 	margin: auto;
 	padding: 2em;
 }
+img {
+	max-width: 100%;
+}
 img.center {
 	/* centers an image */
 	display: block;
 	margin: auto;
-	padding: 0.5em;
+	padding: 1.5em;
 }
 img.aside {
 	/* use this for putting images beside paragraphs.*/
