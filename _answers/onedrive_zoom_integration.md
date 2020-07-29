@@ -23,7 +23,7 @@ The OneDrive integration allows you to share OneDrive files in Zoom. After conne
 **Enabling OneDrive Integration (Admin)**
 
 1. Sign into the Zoom web portal.
-2. Click  **Advanced**  \&gt;  **Integration**.
+2. Click  **Advanced**  &gt;  **Integration**.
 3. Click the  **Microsoft OneDrive**  toggle to enable OneDrive integration.
 
 **Sharing OneDrive Files in Chat**
@@ -32,9 +32,9 @@ You can share your OneDrive files in chat or in-meeting chat. Shared files are n
 
 1. Sign in to Zoom desktop client.
 2. Access chat or in-meeting chat:
-  - **Chat** : Click the  **Chat**  tab.
+  - **Chat**: Click the  **Chat**  tab.
   - [**In-meeting chat**](https://support.zoom.us/hc/en-us/articles/203650445): Start or join a meeting, then click  **Chat**  in the [meeting controls](https://support.zoom.us/hc/en-us/articles/360021921032).
-3. Click  **File**  \&gt;  **OneDrive**.
+3. Click  **File**  &gt;  **OneDrive**.
 4. Click  **Connect**. If prompted, sign into your Microsoft account and authorize Zoom to access your OneDrive.
  You will see a web page with your OneDrive files.
 
